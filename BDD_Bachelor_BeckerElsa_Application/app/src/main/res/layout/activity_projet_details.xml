@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elsa.bdd_bachelor_beckerelsa.projet_details">
+
+    <TextView
+        android:id="@+id/project_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif"
+        android:text="Nom du Projet"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/project_titlenature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="29dp"
+        android:text="Nature du projet"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/project_title"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/project_begin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/project_nature"
+        android:layout_below="@+id/project_nature"
+        android:layout_marginTop="27dp"
+        android:text="Date de début :"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/project_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/project_begin"
+        android:layout_below="@+id/project_begin"
+        android:layout_marginTop="14dp"
+        android:text="Date de fin :"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/project_nature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/project_titlenature"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="62dp"
+        android:height="60dp"
+        android:text="Description nature"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/project_datebeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/project_begin"
+        android:layout_toEndOf="@+id/project_titlenature"
+        android:text="JJ/MM/AAAA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/project_dateend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/project_end"
+        android:layout_alignStart="@+id/project_title"
+        android:text="JJ/MM/AAAA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -12,33 +12,31 @@
         android:orientation="horizontal">
 
 
-        <EditText
-            android:id="@+id/edit_search"
-            android:layout_width="272dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Recherche"
-            android:inputType="textPersonName" />
-
-        <Button
-            android:id="@+id/button_search"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Rechercher" />
-
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button_modif"
-        android:layout_width="247dp"
+    <TextView
+        android:id="@+id/main_titre"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Modifier la base de données" />
+        android:fontFamily="sans-serif"
+        android:text="Projets de l'entreprise"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/main_myprojects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voir uniquement mes projets"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <ListView
         android:id="@+id/liste_item"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="match_parent" />
 
 </LinearLayout>

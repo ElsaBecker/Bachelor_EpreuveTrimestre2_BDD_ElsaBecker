@@ -1,0 +1,24 @@
+--------------- BDD BACHELOR BECKER ELSA ---------------
+
+
+ETAT D'AVANCEMENT DU PROJET
+
+ - Requête php de vérification d'identifiants existants pour la connexion fonctionne (testées dans le navigateur), mais je n'ai pas eu le temps de le faire naviguer vers l'autre activité suite à une connexion valide, ni d'indiquer dans l'appli mobile que la connexion a échoué.
+ 
+ - Requête d'ajout d'un utilisateur fonctionne (Mettre les identifiants dans les champs au-dessus du bouton "Connexion", et cliquer ensuite sur le bouton "Créer un compte"). Le nouvel utilisateur s'ajoute bien dans la BDD.
+ 
+ - En revanche les deux requêtes renvoient le Toast "Erreur Analyse données JSON"
+ 
+ - Différentes activités ont été crées et pensées en amont pour remplir les besoins des utilisateurs, mais ne sont pas finalisées. Ce matin je suis vite passée à tenter de relier la base de données et l'application mobile.
+ 
+ 
+ 
+ RESTE A FAIRE
+ 
+  - Feedbacks pour l'utilisateur (identifiants non existants lors de la connexion, identifiants déjà existants lors de la création d'un nouveau compte, etc...)
+  
+  - Navigations entre les activités
+  
+  - Affichage de la base de données gloabalement : Activité MainActivity supposé lister les projets sur lesquels travaille l'utilisateur connecté. La possibilité de sélectionner un projet, menant à l'écran "activity_projet_details" (non terminé d'être modélisé, devrait aussi contenir les notes de synthèse et la possibilité d'en entrer une nouvelle).
+  
+  - Requêtes php permettant d'ajouter des informations
