@@ -1,9 +1,13 @@
 --------------- BDD BACHELOR BECKER ELSA ---------------
+Sources Appli Mobile -> Dossier "BDD_Bachelor_BeckerElsa_Application"
 
+MCD, MRD et sql -> Dossier "BDD"
+
+--------------------------------------------------------
 
 ETAT D'AVANCEMENT DU PROJET
 
- - Requête php de vérification d'identifiants existants pour la connexion fonctionne (testées dans le navigateur), mais je n'ai pas eu le temps de le faire naviguer vers l'autre activité suite à une connexion valide, ni d'indiquer dans l'appli mobile que la connexion a échoué.
+ - Requête php de vérification d'identifiants existants pour la connexion fonctionne (testées dans le navigateur), mais je n'ai pas eu le temps de le faire naviguer vers l'autre activité suite à une connexion valide, ni d'indiquer dans l'appli mobile que la connexion a échoué ou que les identifiants sont invalides.
  
  - Requête d'ajout d'un utilisateur fonctionne (Mettre les identifiants dans les champs au-dessus du bouton "Connexion", et cliquer ensuite sur le bouton "Créer un compte"). Le nouvel utilisateur s'ajoute bien dans la BDD.
  

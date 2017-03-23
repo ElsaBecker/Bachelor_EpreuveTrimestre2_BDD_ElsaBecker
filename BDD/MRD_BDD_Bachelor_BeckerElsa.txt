@@ -1,0 +1,4 @@
+MRD
+
+
+CLIENT (ID_Client, Porteur_Projet, Adresse, Telephone, Mail)  PROJET (ID_Projet, Libelle_Projet, Nature, Debut_Projet, Fin_Projet)  ETAPE (ID_Etape, Libelle_Etape, Descriptif_Etape, Debut_Etape, Fin_Etape, #ID_Projet)  SYNTHESE (ID_Synthese, Notes, #ID_Projet)  UTILISATEUR (ID_Utilisateur, Login, Password)  FINANCE (ID_Client, ID_Projet, Budget)  TRAVAILLE (ID_Utilisateur, ID_Projet, Fonction_primaire, Fonction_secondaire) 
