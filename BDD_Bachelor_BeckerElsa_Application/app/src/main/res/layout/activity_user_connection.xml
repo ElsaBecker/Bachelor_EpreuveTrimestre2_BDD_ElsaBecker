@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elsa.bdd_bachelor_beckerelsa.user_connection">
+
+    <TextView
+        android:id="@+id/connect_titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="NGL Studio"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/connect_sstitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/connect_titre"
+        android:layout_below="@+id/connect_titre"
+        android:fontFamily="monospace"
+        android:text="projects"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edit_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:ems="10"
+        android:hint="Login"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/connect_sstitre"
+        android:layout_alignStart="@+id/connect_titre" />
+
+    <EditText
+        android:id="@+id/edit_mdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edit_log"
+        android:layout_below="@+id/edit_log"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Mot de passe"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_mdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="Connexion" />
+
+    <Button
+        android:id="@+id/button_newuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/connect_infonewuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_newuser"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:text="Pas encore de compte ?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp" />
+
+</RelativeLayout>
